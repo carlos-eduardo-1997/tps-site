@@ -90,26 +90,26 @@
 }
 
 .section-decoracao::before {
-    background-image: url('../../../img/decorador7.svg');
-    background-image: url('../../../img/decorador7.svg'), linear-gradient(180deg, white 4px, transparent 4px);
+    background-image: url('../../img/decorador7.svg');
+    background-image: url('../../img/decorador7.svg'), linear-gradient(180deg, white 4px, transparent 4px);
     background-position: center top;
 }
 
 .section-decoracao::after {
-    background-image: url('../../../img/decorador8.svg');
-    background-image: url('../../../img/decorador8.svg'), linear-gradient(360deg, white 4px, transparent 4px);
+    background-image: url('../../img/decorador8.svg');
+    background-image: url('../../img/decorador8.svg'), linear-gradient(360deg, white 4px, transparent 4px);
     background-position: center bottom;
 }
 
 .section-decoracao-2::before {
-    background-image: url('../../../img/decorador3.svg');
-    background-image: url('../../../img/decorador3.svg'), linear-gradient(180deg, white 4px, transparent 4px);
+    background-image: url('../../img/decorador3.svg');
+    background-image: url('../../img/decorador3.svg'), linear-gradient(180deg, white 4px, transparent 4px);
     background-position: center top;
 }
 
 .section-decoracao-2::after {
-    background-image: url('../../../img/decorador4.svg');
-    background-image: url('../../../img/decorador4.svg'), linear-gradient(360deg, white 4px, transparent 4px);
+    background-image: url('../../img/decorador4.svg');
+    background-image: url('../../img/decorador4.svg'), linear-gradient(360deg, white 4px, transparent 4px);
     background-position: center bottom;
 }
 
