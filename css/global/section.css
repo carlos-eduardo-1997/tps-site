@@ -1,0 +1,241 @@
+/* Section Title */
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+.section-title-large-space {
+    margin-bottom: 40px;
+}
+
+.section-decoracao .section-title {
+    margin-top: -12px;
+}
+
+@media (max-width: 480px) {
+
+    .section-title {
+        margin-bottom: 12px;
+    }
+
+    .section-title-large-space {
+        margin-bottom: 40px;
+    }
+
+}
+
+/* Section Branca */
+
+.section-branca {
+    background-color: var(--cor-white);
+}
+
+.section-branca-container {
+    padding-top: 88px;
+    padding-bottom: 76px;
+}
+
+@media (max-width: 1280px) {
+
+    .section-branca-container {
+        padding-top: 68px;
+        padding-bottom: 56px;
+    }
+
+}
+
+@media (max-width: 1025px) {
+
+    .section-branca-container {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .section-branca-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .section-branca-container {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+}
+
+/* Section Decoração */
+
+.section-decoracao {
+    background-color: var(--cor-p0-hover);
+}
+
+.section-decoracao::before,
+.section-decoracao::after,
+.section-decoracao-2::before,
+.section-decoracao-2::after {
+    content: "";
+    height: 140px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -2px;
+}
+
+.section-decoracao::before {
+    background-image: url('../../../img/decorador7.svg');
+    background-image: url('../../../img/decorador7.svg'), linear-gradient(180deg, white 4px, transparent 4px);
+    background-position: center top;
+}
+
+.section-decoracao::after {
+    background-image: url('../../../img/decorador8.svg');
+    background-image: url('../../../img/decorador8.svg'), linear-gradient(360deg, white 4px, transparent 4px);
+    background-position: center bottom;
+}
+
+.section-decoracao-2::before {
+    background-image: url('../../../img/decorador3.svg');
+    background-image: url('../../../img/decorador3.svg'), linear-gradient(180deg, white 4px, transparent 4px);
+    background-position: center top;
+}
+
+.section-decoracao-2::after {
+    background-image: url('../../../img/decorador4.svg');
+    background-image: url('../../../img/decorador4.svg'), linear-gradient(360deg, white 4px, transparent 4px);
+    background-position: center bottom;
+}
+
+@media (min-width: 1820px) {
+
+    .section-decoracao::before,
+    .section-decoracao::after,
+    .section-decoracao-2::before,
+    .section-decoracao-2::after {
+        height: 180px;
+    }
+
+}
+
+@media (max-width: 1280px) {
+
+    .section-decoracao::before,
+    .section-decoracao::after,
+    .section-decoracao-2::before,
+    .section-decoracao-2::after {
+        height: 120px;
+    }
+
+}
+
+@media (max-width: 1025px) {
+
+    .section-decoracao::before,
+    .section-decoracao::after,
+    .section-decoracao-2::before,
+    .section-decoracao-2::after {
+        height: 200px;
+    }
+
+    .section-decoracao-2::before {
+        background-position: -360px top;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .section-decoracao::before,
+    .section-decoracao::after,
+    .section-decoracao-2::before,
+    .section-decoracao-2::after {
+        height: 160px;
+    }
+
+    .section-decoracao-2::before {
+        background-position: -280px top;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+    .section-decoracao::before,
+    .section-decoracao::after,
+    .section-decoracao-2::before,
+    .section-decoracao-2::after {
+        height: 140px;
+    }
+
+    .section-decoracao-2::before {
+        background-position: -240px top;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .section-decoracao::before,
+    .section-decoracao::after,
+    .section-decoracao-2::before,
+    .section-decoracao-2::after {
+        height: 120px;
+    }
+
+    .section-decoracao-2::before {
+        background-position: -200px top;
+    }
+
+}
+
+/* Section Decoração Container */
+
+.section-decoracao-container {
+    padding-top: 112px;
+    padding-bottom: 120px;
+}
+
+@media (max-width: 1280px) {
+
+    .section-decoracao-container {
+        padding-top: 96px;
+        padding-bottom: 104px;
+    }
+
+}
+
+@media (max-width: 1025px) {
+
+    .section-decoracao-container {
+        padding-top: 80px;
+        padding-bottom: 88px;
+    }
+
+    
+}
+
+@media (max-width: 800px) {
+
+    .section-decoracao-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .section-decoracao-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+}

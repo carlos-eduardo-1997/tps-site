@@ -1,0 +1,169 @@
+:root {
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: "Futura Md BT";
+    src: url("../font/FuturaMediumBT.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Futura Md BT";
+    src: url("../font/FuturaMediumItalicBT.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Futura Md BT";
+    src: url("../font/FuturaBoldBT.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Futura Md BT";
+    src: url("../font/FuturaBoldItalicBT.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Font 1 - Futura Md BT */
+
+.font-1-xl-bold {
+    font: bold 3rem/1.25 "Futura Md BT", sans-serif;
+}
+
+.font-1-l {
+    font: normal 2rem/1.25 "Futura Md BT", sans-serif;
+}
+
+.font-1-m {
+    font: normal 1.5rem/1 "Futura Md BT", sans-serif;
+}
+
+.font-1-m-bold {
+    font: bold 1.5rem/1 "Futura Md BT", sans-serif;
+}
+
+.font-1-s {
+    font: normal 1.25rem/1 "Futura Md BT", sans-serif;
+}
+
+.font-1-s-bold {
+    font: bold 1.25rem/1 "Futura Md BT", sans-serif;
+}
+
+.font-1-s-italic {
+    font: normal 1.25rem/1 "Futura Md BT", sans-serif;
+    font-style: italic;
+}
+
+.font-1-xs {
+    font: normal 1rem/1 "Futura Md BT", sans-serif;
+}
+
+@media (max-width: 1025px) {
+
+    .font-1-xl-bold {
+        font: bold 2.5rem/1.25 "Futura Md BT", sans-serif;
+    }
+
+    .font-1-s {
+        font: normal 1.125rem/1 "Futura Md BT", sans-serif;
+    }
+    
+    .font-1-s-bold {
+        font: bold 1.125rem/1 "Futura Md BT", sans-serif;
+    }
+    
+    .font-1-s-italic {
+        font: normal 1.125rem/1 "Futura Md BT", sans-serif;
+        font-style: italic;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .font-1-xl-bold {
+        font: bold 2.25rem/1.25 "Futura Md BT", sans-serif;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .font-1-xl-bold {
+        font: bold 1.75rem/1.25 "Futura Md BT", sans-serif;
+    }
+
+    .font-1-m {
+        font: normal 1.3rem/1.2 "Futura Md BT", sans-serif;
+    }
+    
+    .font-1-m-bold {
+        font: bold 1.3rem/1.2 "Futura Md BT", sans-serif;
+    }
+
+}
+
+/* Font 1 - Roboto */
+
+.font-2-xl {
+    font: normal 1.5rem/1.6 "Roboto", sans-serif;
+}
+
+.font-2-l {
+    font: normal 1.375rem/1.5 "Roboto", sans-serif;
+}
+
+.font-2-l-bold {
+    font: bold 1.375rem/1.5 "Roboto", sans-serif;
+}
+
+.font-2-m {
+    font: normal 1.25rem/1.6 "Roboto", sans-serif;
+}
+
+.font-2-m-light {
+    font: 300 1.25rem/1.6 "Roboto", sans-serif;
+}
+
+.font-2-s {
+    font: normal 1.125rem/1.66 "Roboto", sans-serif;
+}
+
+.font-2-s-bold {
+    font: bold 1.125rem/1.66 "Roboto", sans-serif;
+}
+
+.font-2-xs {
+    font: normal 1rem/1.5 "Roboto", sans-serif;
+}
+
+@media (max-width: 1025px) {
+
+    .font-2-xl {
+        font: normal 1.4rem/1.6 "Roboto", sans-serif;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .font-2-xl {
+        font: normal 1.25rem/1.6 "Roboto", sans-serif;
+    }
+
+    .font-2-m {
+        font: normal 1.15rem/1.7 "Roboto", sans-serif;
+    }
+
+    .font-2-m-light {
+        font: 300 1.15rem/1.7 "Roboto", sans-serif;
+    }
+
+}

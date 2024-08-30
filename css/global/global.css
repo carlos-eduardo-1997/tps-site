@@ -1,0 +1,114 @@
+:root {
+
+    --container-width: 1280px;
+    --box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Breakpoints */
+
+/*
+--xlg: 1280px; --standard-padding: 36px; --container-padding: 100px;
+--lg: 1025px; --standard-padding: 36px; --container-padding: 80px;
+--md: 800px;
+--sm: 600px; --standard-padding: 24px; --container-padding: 72px;
+--xsm: 480px;
+--xxsm: 340px; --standard-padding: 20px; --container-padding: 60px;
+*/
+
+/* Global Reset */
+
+body {
+    color: var(--cor-c1);    
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul, li, h1, h2, h3, h4, h5, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+address {
+    font-style: inherit; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Container */
+
+.body-padding {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.body-padding-lg {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.body-container {
+    max-width: var(--container-width); /* Column: 64px, Gutter: 40px */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1025px) {
+
+    .body-padding,
+    .body-padding-lg {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .body-padding,
+    .body-padding-lg {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+    
+
+}
+
+@media (max-width: 480px) {
+
+    .body-padding,
+    .body-padding-lg {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+
+}
+
+@media (max-width: 340px) {
+
+    .body-padding,
+    .body-padding-lg {
+        padding-right: 28px;
+        padding-left: 28px;
+    }
+    
+
+}

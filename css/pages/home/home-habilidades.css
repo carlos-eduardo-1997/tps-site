@@ -1,0 +1,85 @@
+/* Habilidades */
+
+#home .habilidades {
+    margin-top: -240px;
+}
+
+#home .habilidades-lista {
+    width: calc(var(--container-width) + (64px * 2));
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+#home .habilidade-item {
+    background: rgb(252, 247, 247);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    padding: 40px;
+    text-align: center;
+}
+
+#home .habilidade-item img {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#home .habilidade-item h3 {
+    margin: 20px 0px;
+}
+
+@media (max-width: 1420px) {
+
+    #home .habilidades-lista {
+        width: 100%;
+        padding: 0px 28px;
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 1025px) {
+
+    #home .habilidade-item {
+        padding: 28px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    #home .habilidades {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+    #home .habilidades-lista {
+        width: calc(var(--container-width) + (64px * 2)); 
+        padding: 0px 60px 40px 60px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #home .habilidades {
+        overflow: hidden;
+        margin-top: 0px;
+        padding: 80px 0px;
+    }
+
+    #home .habilidades-lista {
+        width: 100%; 
+        padding: 0px 40px;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    #home .habilidade-item img {
+        width: 40%;
+        min-width: 120px;
+    }
+
+}

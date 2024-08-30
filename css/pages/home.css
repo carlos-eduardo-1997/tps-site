@@ -1,0 +1,29 @@
+ /* Tmp */
+
+#home .tmp .tmp-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+#home .tmp .tmp-content h2 {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#home .tmp .tmp-content h2 span {
+    color: var(--cor-c3);
+    font-size: 3.5rem;
+    margin-right: 12px;
+}
+
+@media (max-width: 800px) {
+
+    #home .tmp .tmp-info {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 40px;
+    }
+
+}

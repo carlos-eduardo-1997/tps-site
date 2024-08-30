@@ -1,0 +1,127 @@
+/* Main */
+
+#servicos .main {
+    background-image: url('../../img/decorador5.svg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#servicos .main-container {    
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    padding: 40px 64px 180px 64px;
+    gap: 40px;
+}
+
+#servicos .main-container h1 {
+    grid-column: span 2;
+}
+
+#servicos .main-container div {
+    border-radius: 8px;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+
+#servicos .main-container div p + p {
+    margin-top: 12px;
+}
+
+/* Serviços */
+
+#servicos .servicos {
+    background: var(--cor-p0);
+    margin: -2px 0px 0px 0px;
+}
+
+#servicos .servicos-container {
+    padding: 120px 0px 130px 0px;
+}
+
+#servicos .servicos-container h1 {
+    padding: 0px 64px;
+    margin-bottom: 40px;
+}
+
+#servicos .servicos-container > p {
+    padding: 0px 64px;
+    margin-bottom: 60px;
+}
+
+#servicos .servicos-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+#servicos .servico-item {
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid var(--cor-p4);
+}
+
+#servicos .servico-item-image {
+    height: 160px;
+    grid-row: span 2;
+}
+
+#servicos .servico-item-image img {
+    height: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+#servicos .servico-item-h2 {
+    align-self: center;
+    text-transform: uppercase;
+    margin: 24px 0px;
+}
+
+#servicos .servico-item-list li + li {
+    margin-top: 8px;
+}
+
+/* Projetos */
+
+#servicos .projetos {
+    background-image: url('../../img/decorador6.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#servicos .projetos-container {
+    padding: 210px 0px 90px 0px;
+}
+
+#servicos .projetos-container h1 {
+    margin-bottom: 60px;
+    padding: 0px 64px 0px 64px;
+}
+
+#servicos .projetos-container > p {
+    margin-bottom: 40px;
+}
+
+#servicos .projetos-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+    align-items: baseline;
+}
+
+#servicos .projetos-item {
+    display: inline-block;
+}
+
+#servicos .projetos-item img {
+    max-height: 200px;
+    filter: grayscale(100%);
+    transition: all .3s ease-in-out;
+}
+
+#servicos .projetos-item:hover img {
+    filter: grayscale(0%);
+}

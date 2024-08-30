@@ -1,0 +1,104 @@
+/* Banner */
+
+#home .banner-fotos {
+    margin-top: 40px;
+    padding: 40px;
+    background: rgb(252, 247, 247);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    position: relative;
+}
+
+#home .banner-fotos > img {
+    border-radius: 8px;
+    opacity: .9;
+}
+
+#home .banner-fotos span {
+    background: #FFDCDA;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: var(--box-shadow);
+    position: absolute;
+    top: 46%;
+    cursor: pointer;
+}
+
+#home .banner-fotos span img {
+    width: 24px;
+}
+
+#home .banner-fotos span:nth-child(2) {
+    left: 14px;
+}
+
+#home .banner-fotos span:nth-child(3) {
+    right: 14px;
+}
+
+@media (max-width: 800px) {
+    
+    #home .banner-fotos {
+        padding: 20px;
+    }
+
+    #home .banner-fotos span {
+        padding: 8px;
+        top: 45%;
+    }
+
+    #home .banner-fotos span img {
+        width: 20px;
+    }
+    
+    #home .banner-fotos span:nth-child(2) {
+        left: 6px;
+    }
+    
+    #home .banner-fotos span:nth-child(3) {
+        right: 6px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #home .banner {
+        background-image: url("../../../img/topser-sobre.jpg");
+        background-color: rgba(255, 238, 237, 0.95);
+        background-blend-mode: soft-light;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    #home .banner-fotos {
+        padding: 16px;
+        margin: 20px -12px 0px -12px;
+        display: none;
+    }
+
+    #home .banner-fotos > img {
+        min-height: 220px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #home .banner-fotos span {
+        padding: 6px;
+        top: 45%;
+    }
+
+    #home .banner-fotos span img {
+        width: 16px;
+    }
+    
+    #home .banner-fotos span:nth-child(2) {
+        left: -4px;
+    }
+    
+    #home .banner-fotos span:nth-child(3) {
+        right: -4px;
+    }
+
+}

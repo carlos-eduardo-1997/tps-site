@@ -1,0 +1,92 @@
+#pilulas .pilulas {
+    background: var(--cor-p0);
+    margin-top: -38px;
+}
+
+#pilulas .pilulas::before {
+    content: "";
+    width: auto;
+    min-height: 120px;
+    display: block;
+    background-color: white;
+    background-image: url('../../img/decorador5.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pilulas .pilulas-container {
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 64px 100px 64px;
+    gap: 40px;
+}
+
+#pilulas .pilulas-container h1 {
+    /* padding: 0px 64px; */
+    grid-column: span 2;
+    margin-bottom: 40px;
+}
+
+#pilulas .pilulas-container p {
+    margin-bottom: 40px;
+}
+
+#pilulas .pilulas-section {
+    padding: 0px;
+    /* border: 1px solid var(--cor-p4); */
+    /* background: var(--cor-white); */
+    /* box-shadow: var(--box-shadow); */
+}
+
+#pilulas .pilulas-section + .pilulas-section {
+    border-top: 1px solid var(--cor-c4);
+    padding-top: 52px;
+    margin-top: 60px;
+}
+
+#pilulas .pilulas-section-title {
+    display: flex;
+    align-items: center;
+    /* padding-left: 16px; */
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: var(--cor-c2);
+}
+
+#pilulas .pilulas-section-title img {
+    width: 32px;
+    margin-right: 8px;
+}
+
+#pilulas .pilulas-section-item {
+    align-items: center;
+    background: var(--cor-white);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+}
+
+#pilulas .pilulas-section-item::before {
+    display: block;
+    height: 12px;
+    width: 12px;
+    background: url("https://cdn0.iconfinder.com/data/icons/phosphor-light-vol-4/256/pill-light-256.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pilulas .pilulas-section-item + .pilulas-section-item {
+    margin-top: 4px;
+}
+
+#pilulas .pilulas-section-item a {
+    color: rgb(120, 120, 120);
+    padding: 14px 18px;
+    display: block;
+}
+
+#pilulas .pilulas-section-item a:hover {
+    color: var(--cor-black);
+    background: var(--cor-c5);
+}

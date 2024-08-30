@@ -1,0 +1,77 @@
+/* Introdução */
+
+#home .introducao-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#home .introducao-info {
+    z-index: 1;
+}
+
+#home .introducao-info p {
+    max-width: 660px;
+}
+
+#home .introducao-imagem {
+    align-self: center;
+    margin: -20px 0px;
+}
+
+#home .introducao-imagem img {
+    width: calc(100% + 60px);
+    max-width: fit-content;
+    margin-left: -30px;
+}
+
+@media (max-width: 1280px) {
+
+    #home .introducao-container {
+        padding-bottom: 48px;
+    }
+    
+}
+
+@media (max-width: 1025px) {
+
+    #home .introducao-container {
+        padding-top: 48px;
+        padding-bottom: 20px;
+    }
+
+    #home .introducao-imagem img {
+        width: calc(100% + 80px);
+        max-width: fit-content;
+        margin-left: -50px;
+    }
+    
+}
+
+@media (max-width: 800px) {
+
+    #home .introducao-info h1 {
+        width: calc(100% + 160px);
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    #home .introducao-container {
+        grid-template-columns: auto;
+        gap: 0px;
+    }
+
+    #home .introducao-info h1 {
+        width: 100%;
+    }
+
+    #home .introducao-imagem img {
+        display: none;
+    }
+    
+}

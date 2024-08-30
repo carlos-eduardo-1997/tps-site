@@ -1,0 +1,95 @@
+/* Pílulas */
+
+#home .pilulas {
+    background: var(--cor-p0-hover);
+    position: relative;
+}
+
+#home .pilulas-container {
+    margin-top: -60px;
+    margin-bottom: -20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+#home .pilulas-imagem img {
+    width: calc(100% + 40px);
+    max-width: calc(100% + 40px);
+    margin-top: -60px;
+    margin-left: -40px;
+}
+
+#home .pilulas-info a {
+    display: inline-block;
+}
+
+#home .pilulas-container a {
+    transition: all ease-in-out .2s;
+}
+
+#home .pilulas-container a:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 1025px) {
+
+    #home .pilulas-container {
+        margin-top: -40px;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #home .pilulas-info h3 {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    #home .pilulas-container {
+        grid-template-columns: 1fr;
+        margin-bottom: 0px;
+        gap: 8px;
+    }
+
+    #home .pilulas-imagem img {
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin-top: -40px;
+        margin-left: -20px;
+    }
+
+    #home .pilulas-info {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #home .pilulas-imagem img {
+        width: calc(100% + 60px);
+        max-width: calc(100% + 60px);
+    }
+
+    #home .pilulas-container {
+        padding-bottom: 4px;
+    }
+
+    #home .pilulas-info h3 {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 340px) {
+
+    #home .pilulas-imagem img {
+        width: calc(100% + 30px);
+        max-width: calc(100% + 30px);
+        margin-left: -15px;
+    }
+
+}

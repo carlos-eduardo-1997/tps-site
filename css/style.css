@@ -1,0 +1,23 @@
+/* Global */
+@import "./utilitarios/cores.css";
+@import "./utilitarios/tipografia.css";
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+@import "./global/section.css";
+@import "./global/form.css";
+
+/* Home */
+@import "./pages/home/home-introducao.css";
+@import "./pages/home/home-banner.css";
+@import "./pages/home/home-metodologia.css";
+@import "./pages/home/home-informacoes.css";
+@import "./pages/home/home-habilidades.css";
+@import "./pages/home/home-pilulas.css";
+@import "./pages/home/home-contato.css";
+@import "./pages/home.css";
+
+@import "./pages/sobre.css";
+@import "./pages/servicos.css";
+@import "./pages/pilulas.css";
+@import "./pages/contato.css";
